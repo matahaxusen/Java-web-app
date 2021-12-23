@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Built-By: MrTabernero
+Build-Jdk: 16.0.1
+Implementation-Title: GR80.I.CLIENT
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: com.example
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-boot
+ -starter-parent/GR80.I.CLIENT
+Created-By: Maven Integration for Eclipse
+
