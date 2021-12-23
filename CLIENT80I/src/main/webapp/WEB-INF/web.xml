@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+	id="WebApp_ID" version="4.0">
+
+	<display-name>CLIENT80I</display-name>
+
+	<servlet>
+		<servlet-name>index_servlet</servlet-name>
+		<servlet-class>client.index_servlet</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>login_servlet</servlet-name>
+		<servlet-class>client.login_servlet</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>view_product_servlet</servlet-name>
+		<servlet-class>client.view_product_servlet</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>delete_user_servlet</servlet-name>
+		<servlet-class>client.delete_user_servlet</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>update_user_servlet</servlet-name>
+		<servlet-class>client.update_user_servlet</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>add_product_servlet</servlet-name>
+		<servlet-class>client.add_product_servlet</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>update_product_servlet</servlet-name>
+		<servlet-class>client.update_product_servlet</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>delete_product_servlet</servlet-name>
+		<servlet-class>client.delete_product_servlet</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>register_user_servlet</servlet-name>
+		<servlet-class>client.register_user_servlet</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>index_search_servlet</servlet-name>
+		<servlet-class>client.index_search_servlet</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>buy_product_servlet</servlet-name>
+		<servlet-class>client.buy_product_servlet</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>process_payment_servlet</servlet-name>
+		<servlet-class>client.process_payment_servlet</servlet-class>
+	</servlet>
+
+	<welcome-file-list>
+
+		<welcome-file>login_servlet</welcome-file>
+		<welcome-file>index_servlet</welcome-file>
+		<welcome-file>view_product_servlet</welcome-file>
+		<welcome-file>delete_user_servlet</welcome-file>
+		<welcome-file>update_user_servlet</welcome-file>
+		<welcome-file>add_product_servlet</welcome-file>
+		<welcome-file>update_product_servlet</welcome-file>
+		<welcome-file>delete_product_servlet</welcome-file>
+		<welcome-file>register_user_servlet</welcome-file>
+		<welcome-file>index_search_servlet</welcome-file>
+		<welcome-file>buy_product_servlet</welcome-file>
+		<welcome-file>process_payment_servlet</welcome-file>
+
+		<welcome-file>login.jsp</welcome-file>
+		<welcome-file>add_product.jsp</welcome-file>
+		<welcome-file>index.jsp</welcome-file>
+		<welcome-file>logs.jsp</welcome-file>
+		<welcome-file>register.jsp</welcome-file>
+		<welcome-file>update_product.jsp</welcome-file>
+		<welcome-file>update_user.jsp</welcome-file>
+		<welcome-file>view_product.jsp</welcome-file>
+		<welcome-file>buy_product.jsp</welcome-file>
+
+	</welcome-file-list>
+</web-app>
